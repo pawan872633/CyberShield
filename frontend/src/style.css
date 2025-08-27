@@ -1,0 +1,30 @@
+/* Gradient background */
+body.bg-gradient {
+  background: linear-gradient(135deg, #0f172a, #1e293b, #334155);
+  min-height: 100vh;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Card styling */
+.custom-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+  box-shadow: 0 0 30px rgba(0,0,0,0.3);
+  backdrop-filter: blur(10px);
+  transition: transform 0.3s ease-in-out;
+}
+.custom-card:hover {
+  transform: scale(1.02);
+}
+
+/* Buttons */
+.btn-custom {
+  background: linear-gradient(90deg, #38bdf8, #0ea5e9);
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+.btn-custom:hover {
+  background: linear-gradient(90deg, #0ea5e9, #38bdf8);
+}
